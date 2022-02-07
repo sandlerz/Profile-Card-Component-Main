@@ -1,0 +1,95 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+ /*Global*/
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: hsl(185, 75%, 39%);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  overflow: hidden;
+}
+p{
+  color: hsl(227, 10%, 46%);
+  font-size: 20px;
+}
+h2{
+  font-weight: 500;
+  font-size: 27px;
+}
+h4{
+  font-weight: 500;
+  font-size: 22px;
+}
+/*background*/
+#topback{
+  position: absolute;
+  bottom: 500px;
+  right: 1000px;
+}
+#botback{
+  position: absolute;
+  left: 1080px;
+  top: 300px;
+}
+/*Card*/
+#card{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 425px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*header*/
+#frontcard{
+    width: 400px;
+    height: 140px;
+}
+#photocard{
+    border-radius: 50%;
+    border: white solid 5px;
+    background-color: white;
+}
+  #profilecard{
+  position: relative;
+  bottom: 50px;
+}
+#profilecard h4{
+  margin-bottom: 10px;
+}
+
+#age{
+  color:hsl(227, 10%, 46%);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*footer stats*/
+footer{
+  border-top: hsl(227, 10%, 90%) solid 2.5px;
+  display: flex;
+  height: 125px;
+}  
+.stats{
+  margin: auto;
+  width: 100%;
+}
+.stats h2{
+  margin: 0 0 12px 0;
+}
